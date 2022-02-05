@@ -4,20 +4,20 @@ function NavBar() {
   return (
     <div className="navbar">
       <div className="centering">
-        <a
+        {/* <a
           className="linkedin link-layout"
           href="https://www.linkedin.com/in/chesbro-jr/"
           alt="linkedin"
         >
           LinkedIn
-        </a>
-        <a
+        </a> */}
+        {/* <a
           className="instagram link-layout"
           href="https://www.instagram.com/Lrd134/"
           alt="instagram"
         >
           Instagram
-        </a>        
+        </a>         */}
         <a
           className="blog link-layout"
           href="https://blog.gamingdecoded.org/"
@@ -26,12 +26,19 @@ function NavBar() {
           Blog
         </a>
         <a
+          className="forums link-layout"
+          href="https://gamingdecoded.org/forums"
+          alt="forums"
+        >
+          Forums
+        </a>
+        {/* <a
           className="Twitter link-layout"
           href="https://twitter.com/GamingDecoded"
           alt="twitter"
         >
           🐦 Twitter 🐦
-        </a>
+        </a> */}
         <a
           className="minecraft link-layout"
           href="https://gamingdecoded.org/minecraft"
