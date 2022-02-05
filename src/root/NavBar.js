@@ -3,6 +3,7 @@ import React from 'react';
 function NavBar() {
   return (
     <div className="navbar">
+      <div className="centering">
         <a
           className="linkedin link-layout"
           href="https://www.linkedin.com/in/chesbro-jr/"
@@ -45,6 +46,7 @@ function NavBar() {
         >
           Portfolio
         </a>
+      </div>
     </div>
   )
 }
