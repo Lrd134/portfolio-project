@@ -6,7 +6,6 @@ body {
 div.navbar {
   background-color: #1b2c3a;
   padding: 1em;
-  margin: auto;
 }
 
 a.link-layout {
@@ -19,4 +18,19 @@ a.link-layout {
 div.centering {
   position: relative;
   left: 37%;
+}
+
+div.splash {
+  text-align: center;
+  background-image: url("./root/cityclip.png");
+  background-repeat: repeat;
+  height: 714px;
+  width: 100%;
+}
+
+p.photo-attributes {
+  text-align: left;
+  position: absolute;
+  top: 750px;
+  right: 3px;
 }
