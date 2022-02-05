@@ -1,5 +1,5 @@
 import { Route } from "react-router-dom";
-import Splash from 'Splash.js'
+import Splash from './Splash.js'
 const myRoutes = () => {
   return (
     <Route path="/" element={<Splash />} >
