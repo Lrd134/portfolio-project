@@ -1,4 +1,17 @@
 body {
-  background-color: #7e9a9a;
-  color: black;
+  background-color: #172531;
+  color: #cddbe7;
 }
+
+div.navbar {
+  background-color: #1b2c3a;
+  padding: 1em;
+}
+
+a.link-layout {
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left:  1px solid #203344;
+  border-right: 1px solid #203344;
+}
+
