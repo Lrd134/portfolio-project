@@ -15,3 +15,7 @@ a.link-layout {
   border-right: 1px solid #203344;
 }
 
+div.centering {
+  width: 60%;
+  margin: auto;
+}
