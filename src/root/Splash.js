@@ -12,6 +12,13 @@ function Splash() {
           <div className="portfolio-box">This will have portfolio info</div>
           <div className="etc-box">etc</div>
         </div>
+        <div>
+          {/* Put something interesting here that will be interactive or attention grabbing.
+          */}
+        </div>
+        <div className="footer">
+          {/* Put information here, this will have something like about me, our mission, what I want to achieve, etc */}
+        </div>
       </div>
     </div>
   )
