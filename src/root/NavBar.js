@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <div>
+    <div className="navbar">
         <a
           className="linkedin link-layout"
           href="https://www.linkedin.com/in/chesbro-jr/"
