@@ -29,8 +29,31 @@ div.splash {
 }
 
 p.photo-attributes {
+  color: #f0f4f8;
   text-align: left;
   position: absolute;
   top: 750px;
   right: 3px;
+}
+p.photo-attributes a {
+  color: #f0f4f8;
+}
+
+div.three-columns {
+  margin: 60px;
+  color: #f0f4f8;
+  column-count: 3;
+  column-gap: 120px;
+}
+div.three-columns div {
+  height: 480px;
+}
+div.three-columns div.social-media-box {
+  background-color: rgba(105, 147, 184, 0.98);
+}
+div.three-columns div.portfolio-box {
+  background-color: rgba(69, 111, 147, 0.98);
+}
+div.three-columns div.etc-box {
+  background-color: rgba(37, 58, 78, 0.97);
 }
