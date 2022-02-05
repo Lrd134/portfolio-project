@@ -1,8 +1,10 @@
 import { Route } from "react-router-dom";
+import Layout from "./Layout.js";
 import Splash from './Splash.js'
 const myRoutes = () => {
   return (
-    <Route path="/" element={<Splash />} >
+    <Route path="/" element={<Layout />} >
+      <Route exact path="/" element={<Splash />} />
       <Route
         path="*"
         element={
