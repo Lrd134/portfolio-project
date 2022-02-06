@@ -19,7 +19,9 @@ a.link-layout {
   border-left:  1px solid #203344;
   border-right: 1px solid #203344;
 }
-
+h1 {
+  margin: 0;
+}
 div.splash {
   text-align: center;
   background-image: url("./root/cityclip.png");
