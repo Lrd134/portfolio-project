@@ -57,3 +57,10 @@ div.three-columns div.portfolio-box {
 div.three-columns div.etc-box {
   background-color: rgba(37, 58, 78, 0.97);
 }
+
+div.social-media-box div.social-media-header {
+}
+
+div.social-media-box div {
+  display: inline;
+}

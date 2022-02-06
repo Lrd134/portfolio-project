@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from './Social';
 function Splash() {
   return (
     <div>
@@ -8,8 +9,19 @@ function Splash() {
         </div>
         <p className="photo-attributes">Photo by <a href="https://unsplash.com/@_everaldo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Everaldo Coelho</a> on <a href="https://unsplash.com/@_everaldo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         <div className="three-columns">
-          <div className="social-media-box">Please check my socials!</div>
-          <div className="portfolio-box">This will have portfolio info</div>
+          <div className="social-media-box">
+            <div className="social-media-header">Social Media</div><br></br>
+            <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" handle="Lawrence Chesbro Jr"/>
+            <Social url="https://blog.gamingdecoded.org/" social="Blog" handle="Lawrence Chesbro Jr" />
+            <Social url="https://twitter.com/GamingDecoded" social="Twitter" handle="@GamingDecoded" />
+            <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" handle="GamingDecodedLar" />
+          </div>
+          <div className="portfolio-box">This will have portfolio info
+          <div>
+            
+            Hello
+          </div>
+          </div>
           <div className="etc-box">etc</div>
         </div>
         <div>
