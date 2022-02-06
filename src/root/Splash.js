@@ -16,13 +16,15 @@ function Splash() {
             <Social url="https://twitter.com/GamingDecoded" social="Twitter" handle="@GamingDecoded" />
             <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" handle="GamingDecodedLar" />
           </div>
-          <div className="portfolio-box">This will have portfolio info
-          <div>
-            
-            Hello
+          <div className="portfolio-box"><div className="portfolio-box-header">Portfolio</div><br></br>
+          <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" handle="Play Here" />
+          <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" handle="Explore Forums Here" />
+          <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Cryptocurrency Exchange" handle="Watch Demo Here" />
           </div>
+          <div className="etc-box">
+            <div className="etc-box-header">More Info</div>
+            <Social url="" social="We are happy to have you hear!" handle="Welcome!" />
           </div>
-          <div className="etc-box">etc</div>
         </div>
         <div>
           {/* Put something interesting here that will be interactive or attention grabbing.
