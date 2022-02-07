@@ -4,7 +4,13 @@ import { Link, Outlet } from "react-router-dom";
 function ForumLayout() {
   return (
     <div className="forum-layout">
-      <Link to={location => `${location.pathname}/login`}>Login</Link>
+      <Link to="/forums">Home</Link>
+      <Link to="/forums/login">Login</Link>
+      <div className="options">
+        <div className="options-style"></div>
+        <div className="options-style"></div>
+        <div className="options-style"></div>
+      </div>
       <Outlet/>
     </div>
   )

@@ -83,3 +83,21 @@ div.three-columns div div {
 div.portfolio-box-header {
   background-color: #203344;
 }
+div.options {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 28px;
+  width: 28px;
+  background-color: #456f93;
+}
+
+div.options-style {
+  background-color: white;
+  height: 3px;
+  width: 3px;
+  margin: 2px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}

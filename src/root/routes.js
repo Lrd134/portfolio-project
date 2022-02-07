@@ -20,6 +20,9 @@ const myRoutes = () => {
     </Route>
     <Route path="/forums" element={<ForumLayout />} >
       <Route exact path="/forums" element={<ForumContainer />} />
+      <Route path="*" element={<div>
+        <h1>Unknown forum resource.</h1>
+      </div>} />
     </Route>
     </>
   )
