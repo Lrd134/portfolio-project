@@ -11,10 +11,12 @@ function Splash() {
         <div className="three-columns">
           <div className="social-media-box">
             <div className="social-media-header">Social Media</div><br></br>
-            <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" handle="Lawrence Chesbro Jr"/>
-            <Social url="https://blog.gamingdecoded.org/" social="Blog" handle="Lawrence Chesbro Jr" />
-            <Social url="https://twitter.com/GamingDecoded" social="Twitter" handle="@GamingDecoded" />
-            <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" handle="GamingDecodedLar" />
+            <div className="socials">
+              <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" handle="Lawrence Chesbro Jr"/>
+              <Social url="https://blog.gamingdecoded.org/" social="Blog" handle="Lawrence Chesbro Jr" />
+              <Social url="https://twitter.com/GamingDecoded" social="Twitter" handle="@GamingDecoded" />
+              <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" handle="GamingDecodedLar" />
+            </div>
           </div>
           <div className="portfolio-box"><div className="portfolio-box-header">Portfolio</div><br></br>
           <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" handle="Play Here" />
