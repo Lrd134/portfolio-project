@@ -9,7 +9,14 @@ function NavBar() {
         alt="linkedin"
       >
         LinkedIn
-      </a> */}
+      </a>
+      <a
+        className="Twitter link-layout"
+        href="https://twitter.com/GamingDecoded"
+        alt="twitter"
+      >
+        🐦 Twitter 🐦
+      </a>  */}
       {/* <a
         className="instagram link-layout"
         href="https://www.instagram.com/Lrd134/"
@@ -18,6 +25,40 @@ function NavBar() {
         Instagram
       </a>         */}
       <a
+        className="home link-layout"
+        href="/"
+        alt="home"
+      >Home</a>
+      <a
+        className="blog link-layout"
+        href="https://blog.gamingdecoded.org/"
+        alt="blog"
+      >
+        Blog
+      </a>
+      <a
+        className="forums link-layout"
+        href="/forums"
+        alt="forums"
+      >
+        Forums
+      </a>
+
+      <a
+        className="minecraft link-layout"
+        href="/minecraft"
+        alt="minecraft"
+      >
+        Minecraft
+      </a>
+      <a
+        className="portfolio link-layout"
+        href="/portfolio"
+        alt="portfolio"
+      >
+        Portfolio
+      </a>
+      {/* <a
         className="blog link-layout"
         href="https://blog.gamingdecoded.org/"
         alt="blog"
@@ -31,13 +72,7 @@ function NavBar() {
       >
         Forums
       </a>
-      {/* <a
-        className="Twitter link-layout"
-        href="https://twitter.com/GamingDecoded"
-        alt="twitter"
-      >
-        🐦 Twitter 🐦
-      </a> */}
+
       <a
         className="minecraft link-layout"
         href="https://gamingdecoded.org/minecraft"
@@ -51,7 +86,7 @@ function NavBar() {
         alt="portfolio"
       >
         Portfolio
-      </a>
+      </a> */}
     </div>
   )
 }
