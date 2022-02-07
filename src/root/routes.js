@@ -6,7 +6,7 @@ import ForumLayout from "../forums/ForumLayout.js";
 const myRoutes = () => {
   return (
     <>
-    <Route path="/" element={<Layout />} >
+    <Route path="/" element={<Layout type="main"/>} >
       <Route exact path="/" element={<Splash />} />
       <Route
         path="*"

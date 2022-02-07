@@ -1,9 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import NavBar from './NavBar';
-function Layout(props = {
-  type: "main"
-}) {
+function Layout(props) {
 
   if (props.type === "main") {
     return (

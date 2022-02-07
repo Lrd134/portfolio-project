@@ -12,15 +12,17 @@ class ForumLayout extends Component {
       this.setState({showOptions: !this.state.showOptions})
     }
     return (
-      <div className="forum-layout">
-        <Link to="/forums">Home</Link>
-        <Link to="/forums/login">Login</Link>
-        <div onClick={showOptions} className="options">
-          <div className="options-style"></div>
-          <div className="options-style"></div>
-          <div className="options-style"></div>
+      <div>
+        <div className="navbar">
+          <Link className="link-layout" to="/forums">Home</Link>
+          <Link to="/forums/login" className="link-layout" >Login</Link>
+          <div onClick={showOptions} className="options">
+            <div className="options-style"></div>
+            <div className="options-style"></div>
+            <div className="options-style"></div>
+          </div>
+          {this.state.showOptions ? <Layout type="hover" /> : null }
         </div>
-        {this.state.showOptions ? <Layout type="hover" /> : null }
         <Outlet/>
       </div>
     )
