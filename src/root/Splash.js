@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from './Social';
+import YoutubeEmbed from './YoutubeEmbed';
 function Splash() {
   return (
     <div>
@@ -29,8 +30,7 @@ function Splash() {
           </div>
         </div>
         <div>
-          {/* Put something interesting here that will be interactive or attention grabbing.
-          */}
+          <YoutubeEmbed embedId="8cWGCMXNhZw" />
         </div>
         <div className="footer">
           {/* Put information here, this will have something like about me, our mission, what I want to achieve, etc */}
