@@ -39,7 +39,6 @@ h1 {
 }
 div.splash {
   text-align: center;
-  background-image: url("./root/cityclip.png");
   background-repeat: repeat;
   height: 714px;
   width: 100%;
@@ -61,6 +60,16 @@ div.three-columns {
   color: #f0f4f8;
   column-count: 3;
   column-gap: 120px;
+}
+.photo-left{
+  position: relative;
+  right: 25%;
+}
+.photo-left-caption {
+  width: 30%;
+  position: absolute;
+  left: 44%;
+  
 }
 div.three-columns div {
   height: 480px;

@@ -1,3 +1,4 @@
+import selfPortrait from '../me_temp.jpg';
 import React from 'react';
 import Social from './Social';
 import YoutubeEmbed from './YoutubeEmbed';
@@ -8,7 +9,10 @@ function Splash() {
         <div>
           <h1> Welcome to Gaming Decoded! </h1>
         </div>
-        <p className="photo-attributes">Photo by <a href="https://unsplash.com/@_everaldo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Everaldo Coelho</a> on <a href="https://unsplash.com/@_everaldo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        <h6>Gaming Decoded is intended to be an organization that will help teach video game development. Created by Lawrence Chesbro, Jr. he plans to use this website to showcase his capabilties.</h6>
+        <div className="photo-left-caption"><h3>Currently Lawrence Chesbro, Jr. is a Software Engineer looking to obtain a Frontend React Position. Lawrence is confident in Ruby, Ruby on Rails; however, he prefers programming in React and JavaScript. </h3></div>
+        <img className="photo-left" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img>
+        
         <div className="three-columns">
           <div className="social-media-box">
             <div className="social-media-header">Social Media</div><br></br>
