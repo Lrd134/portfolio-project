@@ -1,0 +1,53 @@
+
+div.navbar {
+  text-align: center;
+  font-size: 24px;
+  background-color: #1b2c3a;
+  padding: 1em;
+}
+div.LinkedIn {
+  position: relative;
+  text-align: unset;
+  right: 150px;
+  top: 40px;
+}
+div.YouTube {
+  position: relative;
+  right: 96%;
+  top: 72px;
+}
+div.Blog {
+  position: relative;
+  right: 150px;
+  top: 29%;
+}
+div.Twitter {
+  position: relative;
+  top: 5%;
+  left: 150px;
+}
+
+div.GitHub {
+  position: relative;
+  right: 96%;
+  top: 72px;
+}
+
+div.Basic {
+  position: relative;
+  text-align: unset;
+  right: 150px;
+  top: 40px;
+}
+
+div.Forums {
+  position: relative;
+  right: 150px;
+  top: 29%;
+}
+
+div.Exchange {
+  position: relative;
+  top: 5%;
+  left: 150px;
+}

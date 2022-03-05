@@ -21,13 +21,6 @@ body {
   color: #cddbe7;
 }
 
-div.navbar {
-  text-align: center;
-  font-size: 24px;
-  background-color: #1b2c3a;
-  padding: 1em;
-}
-
 a.link-layout {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #6993b8;

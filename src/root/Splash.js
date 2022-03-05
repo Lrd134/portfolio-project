@@ -1,7 +1,14 @@
+import blogIco from '../media/icons/Medium-18.png';
+import twitterIco from '../media/icons/Twitter-16.png';
+import linkedInIco from '../media/icons/Linkedin-15.png';
+import youTubeIco from '../media/icons/Youtube-17.png';
+import docIco from '../media/icons/Document-21.png';
+import gitHubIco from '../media/icons/Document-13.png';
 import selfPortrait from '../me_temp.jpg';
 import React from 'react';
 import Social from './Social';
 import YoutubeEmbed from './YoutubeEmbed';
+import './social.css';
 function Splash() {
   return (
     <div>
@@ -16,20 +23,21 @@ function Splash() {
           <div className="social-media-box">
             <div className="social-media-header">Social Media</div><br></br>
             <div className="socials">
-              <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" handle="Lawrence Chesbro Jr"/>
-              <Social url="https://blog.gamingdecoded.org/" social="Blog" handle="Lawrence Chesbro Jr" />
-              <Social url="https://twitter.com/GamingDecoded" social="Twitter" handle="@GamingDecoded" />
-              <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" handle="GamingDecodedLar" />
+              <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" altTxt="Lawrence Chesbro Jr's LinkedIn" icon={linkedInIco} />
+              <Social url="https://blog.gamingdecoded.org/" social="Blog" altTxt="Lawrence Chesbro Jr's Blog" icon={blogIco}/>
+              <Social url="https://twitter.com/GamingDecoded" social="Twitter" altTxt="@GamingDecoded on Twitter" icon={twitterIco}/>
+              <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" altTxt="Lawrence Chesbro Jr' YouTube Channel" icon={youTubeIco} />
             </div>
           </div>
           <div className="portfolio-box"><div className="portfolio-box-header">Portfolio</div><br></br>
-          <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" handle="Play Here" />
-          <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" handle="Explore Forums Here" />
-          <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Cryptocurrency Exchange" handle="Watch Demo Here" />
+            <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" altTxt="Play a Basic Game Here" icon={docIco} />
+            <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" altTxt="Explore the Forums Here" icon={docIco} />
+            <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Cryptocurrency Exchange" altTxt="Watch a Demo Here" icon={docIco} />
+            <Social url="https://github.com/Lrd134" social="GitHub" altText="Lawrence Chesbro Jr's GitHub" icon={gitHubIco} />
           </div>
           <div className="etc-box">
             <div className="etc-box-header">More Info</div>
-            <Social url="" social="We are happy to have you hear!" handle="Welcome!" />
+            <Social url="" social="We are happy to have you hear!" altTxt="Welcome!" />
           </div>
         </div>
         <div>
