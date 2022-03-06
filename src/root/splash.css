@@ -216,4 +216,9 @@ div.portfolio-box-header {
     height: 480px;
     width: 853px;
   }
+  img.photo-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+  }
 }
