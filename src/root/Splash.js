@@ -4,6 +4,11 @@ import linkedInIco from '../media/icons/Linkedin-15.png';
 import youTubeIco from '../media/icons/Youtube-17.png';
 import docIco from '../media/icons/Document-21.png';
 import gitHubIco from '../media/icons/Document-13.png';
+import rubyIco from '../media/icons/ruby-icon.png';
+import railsIco from '../media/icons/rails-icon.png';
+import reactIco from '../media/icons/react-icon.png';
+import webDevIcos from '../media/icons/webdev-icons.png';
+import gitIco from '../media/icons/git-icon.png';
 import selfPortrait from '../me_temp.jpg';
 import React from 'react';
 import Social from './Social';
@@ -17,8 +22,18 @@ function Splash() {
           <h1> Welcome to Gaming Decoded! </h1>
         </div>
         <h6 id="ps">Gaming Decoded is intended to be an organization that will help teach video game development. Created by Lawrence Chesbro, Jr. he plans to use this website to showcase his capabilties.</h6>
-        <div className="photo-left-caption"><h3>Currently Lawrence Chesbro, Jr. is a Software Engineer looking to obtain a Frontend React Position. Lawrence is confident in Ruby, Ruby on Rails; however, he prefers programming in React and JavaScript. </h3></div>
+        
+        <div className="photo-left-caption"><h3>Current Goal:<h2>Frontend React Position</h2>Languages:<h2>
+          <a rel="noreferrer" href="https://ruby-doc.org/" alt="Ruby Documentation" target="_blank"><img height="60px" width="60px" src={rubyIco} alt="Ruby Programming Language"/></a>
+          <a rel="noreferrer" href="https://guides.rubyonrails.org/" alt="Rails Documentation" target="_blank"><img height="60px" width="60px" src={railsIco} alt="Ruby on Rails Framework"/></a>
+          <a style={{
+            "margin-left": "7px",
+            "text-decoration": "none"
+          }} rel="noreferrer" href="https://git-scm.com/doc" alt="Git Documentation" target="_blank"><img height="60px" width="60px" src={gitIco} alt="Git CLI"/> </a>
+          <a rel="noreferrer" href="https://reactjs.org/docs/getting-started.html" alt="React Documentation" target="_blank"><img height="60px" width="60px" src={reactIco} alt="React Framework"/></a><br></br>
+          <a rel="noreferrer" href="https://developer.mozilla.org/" alt="MDN Web Documentation" target="_blank"><img height="90px" width="180px" src={webDevIcos} alt="HTML5, CSS, and JavaScript ES6"/></a> </h2></h3></div>
         <img className="photo-left" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img>
+
         <div className="three-columns">
           <div className="social-media-box">
             <div className="social-media-header">Social Media</div><br></br>
