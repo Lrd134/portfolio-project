@@ -14,6 +14,7 @@ import React from 'react';
 import Social from './Social';
 import YoutubeEmbed from './YoutubeEmbed';
 import './social.css';
+import './splash.css';
 function Splash() {
   return (
     <div>

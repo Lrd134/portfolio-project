@@ -1,0 +1,154 @@
+body {
+  background-color: #172531;
+  color: #cddbe7;
+}
+
+a.link-layout {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6993b8;
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left:  1px solid #203344;
+  border-right: 1px solid #203344;
+}
+
+#ps {
+  margin: 1px;
+  margin-bottom: 10px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.video-responsive {
+  overflow: hidden;
+  width: 850px;
+  padding-bottom: 30%;
+  position: absolute;
+}
+
+div.splash {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@media only screen and (max-width: 2560px) {
+  .video-responsive {
+    right: 25%;
+  }
+
+  div.three-columns {
+    margin: 60px;
+    margin-top: 30px;
+    color: #f0f4f8;
+    column-count: 3;
+    column-gap: 120px;
+  }
+  .photo-left{
+    position: relative;
+    right: 25%;
+    width: 206.328px;
+    height: 500px;
+  }
+  .photo-left-caption {
+    position: absolute;
+  }
+  h3 h2  {
+    position: relative;
+    left: 40%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:  typing 4s steps(55, end);
+    animation-delay: 2s;
+
+  }
+
+}
+
+@media only screen and (max-width: 1920px) {
+  .video-responsive {
+    overflow: hidden;
+    width: 850px;
+    padding-bottom: 30%;
+    position: absolute;
+    right: 25%;
+  }
+
+  div.three-columns {
+    margin: 60px;
+    margin-top: 30px;
+    color: #f0f4f8;
+    column-count: 3;
+    column-gap: 120px;
+  }
+  .photo-left{
+    position: relative;
+    right: 25%;
+    width: 206.328px;
+    height: 500px;
+  }
+  .photo-left-caption {
+    position: absolute;
+  }
+  h3 h2  {
+    position: relative;
+    left: 40%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:  typing 4s steps(55, end);
+    animation-delay: 2s;
+
+  }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .video-responsive {
+    right: 0;
+  }
+
+  div.three-columns {
+    margin: 60px;
+    margin-top: 30px;
+    color: #f0f4f8;
+    column-count: 3;
+    column-gap: 120px;
+  }
+  .photo-left{
+    position: relative;
+    right: 25%;
+    width: 206.328px;
+    height: 500px;
+  }
+  .photo-left-caption {
+    position: absolute;
+  }
+  h3 h2  {
+    position: relative;
+    left: 40%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:  typing 4s steps(55, end);
+    animation-delay: 2s;
+
+  }
+
+}
