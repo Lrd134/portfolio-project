@@ -209,3 +209,11 @@ div.portfolio-box-header {
   }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.video-responsive {
+    top: 110%;
+    height: 480px;
+    width: 853px;
+  }
+}
