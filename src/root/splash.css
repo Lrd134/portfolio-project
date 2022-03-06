@@ -236,3 +236,41 @@ div.portfolio-box-header {
     left: 0;
   }
 }
+
+@media only screen and (min-width: 319px) and (max-width: 321px) {
+  div.video-responsive {
+    display: none;
+  }
+  #ps {
+    display: none;
+  }
+  div.three-columns {
+    display: none;
+  }
+  div.photo-left-caption {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+  }
+  .right-s9 {
+    position: relative;
+    left: 20%;
+  }
+  .right-s9 h2 {
+    width: 600px;
+  }
+  h2 .img-right-s9 {
+    position: relative;
+    right: 30%;
+  }
+  div.navbar {
+    display: none;
+  }
+  img.photo-left {
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 0;
+  }
+}
