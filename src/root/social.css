@@ -47,3 +47,51 @@
   }
   
 }
+
+@media only screen and (max-width: 1280px) {
+  div.Basic {
+    position: relative;
+    text-align: unset;
+    right: 80px;
+    top: 24px;
+  }
+
+  div.Forums {
+    position: relative;
+    right: 80px;
+    top: 10%;
+  }
+
+  div.Exchange {
+    position: absolute;
+    top: 40%;
+    left: 590px;
+  }
+  div.LinkedIn {
+    position: relative;
+    text-align: unset;
+    right: 90px;
+    top: 24px;
+  }
+  div.YouTube {
+    position: absolute;
+    left: 180px;
+    top: 54px;
+  }
+  div.Blog {
+    position: relative;
+    right: 90px;
+    top: 10%;
+  }
+  div.Twitter {
+    position: absolute;
+    top: 40%;
+    left: 180px;
+  }
+  
+  div.GitHub {
+    position: absolute;
+    left: 590px;
+    top: 54px;
+  }
+}

@@ -48,7 +48,7 @@ function Splash() {
           <div className="portfolio-box"><div className="portfolio-box-header">Portfolio</div><br></br>
             <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" altTxt="Play a Basic Game Here" icon={docIco} />
             <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" altTxt="Explore the Forums Here" icon={docIco} />
-            <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Cryptocurrency Exchange" altTxt="Watch a Demo Here" icon={docIco} />
+            <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Exchange" altTxt="Watch a Demo Here" icon={docIco} />
             <Social url="https://github.com/Lrd134" social="GitHub" altText="Lawrence Chesbro Jr's GitHub" icon={gitHubIco} />
           </div>
           <div className="etc-box">
