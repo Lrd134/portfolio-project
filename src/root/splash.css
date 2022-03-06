@@ -130,7 +130,7 @@ div.portfolio-box-header {
 
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
   .video-responsive {
     overflow: hidden;
     width: 850px;
@@ -144,7 +144,7 @@ div.portfolio-box-header {
     height: 480px;
     border-radius: 5px;
   }
-  
+
   div.three-columns {
     margin: 60px;
     margin-top: 30px;
@@ -163,8 +163,16 @@ div.portfolio-box-header {
   }
 
 }
-
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+  .video-responsive {
+    position: absolute;
+    right: 0;
+  }
+  .photo-left {
+    right: 15%;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width: 1280px) {
 
   .video-responsive {
     right: 0;
