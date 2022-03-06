@@ -100,7 +100,7 @@ div.portfolio-box-header {
   background-color: #203344;
 }
 
-@media only screen and (max-width: 2560px) {
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
   .video-responsive {
     right: 25%;
   }
