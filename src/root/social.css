@@ -64,7 +64,7 @@
 
   div.Exchange {
     position: absolute;
-    top: 40%;
+    top: 59%;
     left: 590px;
   }
   div.LinkedIn {
@@ -75,7 +75,7 @@
   }
   div.YouTube {
     position: absolute;
-    left: 180px;
+    left: 182px;
     top: 54px;
   }
   div.Blog {
@@ -85,13 +85,13 @@
   }
   div.Twitter {
     position: absolute;
-    top: 40%;
+    top: 59%;
     left: 180px;
   }
   
   div.GitHub {
     position: absolute;
-    left: 590px;
+    left: 597px;
     top: 54px;
   }
 }
