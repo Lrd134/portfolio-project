@@ -23,6 +23,7 @@ function Splash() {
         </div>
         <h6 id="ps">Gaming Decoded is intended to be an organization that will help teach video game development. Created by Lawrence Chesbro, Jr. he plans to use this website to showcase his capabilties.</h6>
         
+        <YoutubeEmbed embedId="8cWGCMXNhZw" />
         <div className="photo-left-caption"><h3>Current Goal:<h2>Frontend React Position</h2>Languages:<h2>
           <a rel="noreferrer" href="https://ruby-doc.org/" alt="Ruby Documentation" target="_blank"><img height="60px" width="60px" src={rubyIco} alt="Ruby Programming Language"/></a>
           <a rel="noreferrer" href="https://guides.rubyonrails.org/" alt="Rails Documentation" target="_blank"><img height="60px" width="60px" src={railsIco} alt="Ruby on Rails Framework"/></a>
@@ -56,7 +57,6 @@ function Splash() {
           </div>
         </div>
         <div>
-          <YoutubeEmbed embedId="8cWGCMXNhZw" />
         </div>
         <div className="footer">
           {/* Put information here, this will have something like about me, our mission, what I want to achieve, etc */}
