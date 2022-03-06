@@ -7,6 +7,12 @@ div.options {
   background-color: #456f93;
 }
 
+div.navbar {
+  text-align: center;
+  font-size: 24px;
+  background-color: #1b2c3a;
+  padding: 1em;
+}
 div.options-style {
   background-color: white;
   height: 3px;
