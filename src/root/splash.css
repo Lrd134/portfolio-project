@@ -216,6 +216,12 @@ div.portfolio-box-header {
     height: 480px;
     width: 853px;
   }
+  div h1 {
+    margin-left: 10%;
+  }
+  h6#ps {
+    margin-left: 10%;
+  }
   div.three-columns {
     display: none;
   }
