@@ -216,6 +216,12 @@ div.portfolio-box-header {
     height: 480px;
     width: 853px;
   }
+  div.three-columns {
+    display: none;
+  }
+  div.navbar {
+    display: none;
+  }
   img.photo-left {
     position: absolute;
     top: 25%;
