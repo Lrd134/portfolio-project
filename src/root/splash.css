@@ -210,15 +210,16 @@ div.portfolio-box-header {
 }
 @media only screen and (min-width: 767px) and (max-width: 769px) { /* iPad mini */
   div.video-responsive {
-    top: 110%;
+    top: 122%;
     height: 480px;
     width: 853px;
+    margin-left: 40px;
   }
   div.three-columns {
     columns: unset;
-    width: 50%;
+    width: 56%;
     position: absolute;
-    right: 10px;
+    left: 325px;
     top: 35%;
   }
   div.etc-box{
@@ -232,14 +233,66 @@ div.portfolio-box-header {
     top: 25%;
     left: 0;
   }
+  div.GitHub {
+    position: absolute;
+    top: 40px;
+    left: 275px;
+  }
+  div.LinkedIn {
+    position: relative;
+    right: 110px;
+    top: 10px;
+  }
+  div.GitHub a img {
+    position: relative;
+    right: 17px;
+  }
+  div.Blog {
+    position: relative;
+    right: 110px;
+  }
+  div.YouTube {
+    position: absolute;
+    right: 0;
+    top: 145px;
+  }
+  div.Exchange {
+    position: absolute;
+    left: 250px;
+    top: 78%;
+    
+  }
+  div.Twitter {
+    position: absolute;
+    right: 0;
+    top: 305px;
+  }
+  div.Game {
+    position: relative;
+    top: 15px;
+    right: 110px;
+  }
+  div.Forums {
+    position: relative;
+    right: 110px;
+  }
   div.photo-left-caption {
     position: absolute;
-    left: 20%;
+    left: 23%;
     width: 50%;
+  }
+  span.right-s9 + br + span {
+    position: relative;
+    left: 280px;
+  }
+  h6#ps, div.splash div h1 {
+    position: relative;
+    left: 10%;
   }
   div h3 span.img-right-s9 a {
     position: relative;
-    right: 75%;
+    top: 10px;
+    right: 175px;
   }
 }
 
