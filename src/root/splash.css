@@ -3,6 +3,11 @@ body {
   color: #cddbe7;
 }
 
+span.right-s9 + br + span {
+  position: relative;
+  left: 280px;
+}
+
 a.link-layout {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #6993b8;
@@ -51,7 +56,7 @@ div.three-columns {
 
 h3 span  {
   position: relative;
-  left: 40%;
+  left: 37%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation:  typing 4s steps(55, end);
@@ -101,7 +106,8 @@ div.portfolio-box-header {
 
 @media only screen and (min-width: 1920px) and (max-width: 2560px) {
   .video-responsive {
-    right: 25%;
+    margin-top: 30px;
+    right: 10%;
   }
 
   
@@ -111,17 +117,19 @@ div.portfolio-box-header {
   }
 
   div.three-columns {
-    margin: 60px;
-    margin-top: 30px;
-    color: #f0f4f8;
-    column-count: 3;
-    column-gap: 120px;
+    position: relative;
+    top: 590px;
   }
   .photo-left{
-    position: relative;
-    right: 25%;
+    position: absolute;
+    right: 5px;
+    top: 13%;
     width: 206.328px;
     height: 500px;
+  }
+
+  .photo-left-caption {
+    position: absolute;
   }
 
 }
@@ -280,10 +288,6 @@ div.portfolio-box-header {
     position: absolute;
     left: 23%;
     width: 50%;
-  }
-  span.right-s9 + br + span {
-    position: relative;
-    left: 280px;
   }
   h6#ps, div.splash div h1 {
     position: relative;
