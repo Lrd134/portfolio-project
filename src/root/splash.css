@@ -104,7 +104,7 @@ div.portfolio-box-header {
   background-color: #203344;
 }
 
-@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+@media only screen and (min-width: 2550px) and (max-width: 2570px) { /* 1440p */
   .video-responsive {
     margin-top: 30px;
     right: 10%;
@@ -167,36 +167,73 @@ div.portfolio-box-header {
 
 }
 
-@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+@media only screen and (min-width: 1900px) and (max-width: 1940px) { /* 1080p */
   .video-responsive {
     overflow: hidden;
     width: 850px;
     padding-bottom: 30%;
     position: absolute;
-    right: 25%;
+    top: 13%;
+    right: 15%;
   }
-
   
   div.three-columns div {
-    height: 480px;
+    height: 430px;
     border-radius: 5px;
   }
 
   div.three-columns {
-    margin: 60px;
-    margin-top: 30px;
+    position: relative;
+    top: 450px;
     color: #f0f4f8;
     column-count: 3;
     column-gap: 120px;
   }
+
   .photo-left{
-    position: relative;
-    right: 25%;
+    position: absolute;
+    right: 2%;
+    top: 12%;
     width: 206.328px;
     height: 500px;
   }
-  .photo-left-caption {
+  div.photo-left-caption {
     position: absolute;
+    top: 75%;
+    z-index: 1;
+    right: 23%;
+  }
+  .about {
+    display: none;
+  }
+  .left-text-point, .right-text-point {
+    font-size: 18px;
+    position: absolute;
+    width: 450px;  
+  }
+  .left-text-point {
+    left: 3%;
+  }
+  .right-text-point {
+    left: 15%;
+  }
+  .education {
+    top: 17%;
+  }
+  .education-text {
+    top: 20%;
+  }
+  .goals {
+    top: 26%;
+  }
+  .goals-text {
+    top: 29%;
+  }
+  .background {
+    top: 38%;
+  }
+  .background-text {
+    top: 42%;
   }
 
 }

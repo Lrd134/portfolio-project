@@ -27,7 +27,7 @@ function Splash() {
           <span className="right-text-point education-text">Jan. 2022 Flatiron School</span>
           <span className="left-text-point goals">Looking For and Accepting:</span>
           <span className="right-text-point goals-text">Group Project Collaborations<br></br>
-          Job Offers<br></br>
+          Entry-Level Frontend Job Offers<br></br>
           </span>
           <span className="left-text-point background">Customer Service Background:</span><span className="right-text-point background-text">Will bring friendly and direct communication to the team.</span>
         <YoutubeEmbed embedId="8cWGCMXNhZw" />
@@ -61,7 +61,7 @@ function Splash() {
           </div>
           <div className="etc-box">
             <div className="etc-box-header">More Info</div>
-            <Social url="" social="We are happy to have you hear!" altTxt="Welcome!" />
+            <Social url="" social="I are happy to have you hear!" altTxt="Welcome!" />
           </div>
         </div>
         <div>
