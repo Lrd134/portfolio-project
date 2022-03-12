@@ -110,7 +110,11 @@ div.portfolio-box-header {
     right: 10%;
   }
 
-  
+  .about {
+    position: absolute;
+    left: 37%;
+    font-size: 30px;
+  }
   div.three-columns div {
     height: 480px;
     border-radius: 5px;
@@ -119,6 +123,35 @@ div.portfolio-box-header {
   div.three-columns {
     position: relative;
     top: 590px;
+  }
+  .left-text-point, .right-text-point {
+    font-size: 28px;
+    position: absolute;
+    width: 450px;  
+  }
+  .left-text-point {
+    left: 23%;
+  }
+  .right-text-point {
+    left: 38%;
+  }
+  .education {
+    top: 17%;
+  }
+  .education-text {
+    top: 20%;
+  }
+  .goals {
+    top: 26%;
+  }
+  .goals-text {
+    top: 29%;
+  }
+  .background {
+    top: 38%;
+  }
+  .background-text {
+    top: 42%;
   }
   .photo-left{
     position: absolute;

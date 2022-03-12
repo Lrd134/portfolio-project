@@ -22,7 +22,14 @@ function Splash() {
           <h1> Welcome to Gaming Decoded! </h1>
         </div>
         <h6 id="ps">Gaming Decoded is intended to be an organization that will help teach video game development. Created by Lawrence Chesbro, Jr. he plans to use this website to showcase his capabilties.</h6>
-        
+        <span className="about"><strong>About Me</strong><br></br></span>
+          <span className="left-text-point education"> Lawrence Chesbro Jr's Education:</span>
+          <span className="right-text-point education-text">Jan. 2022 Flatiron School</span>
+          <span className="left-text-point goals">Looking For and Accepting:</span>
+          <span className="right-text-point goals-text">Group Project Collaborations<br></br>
+          Job Offers<br></br>
+          </span>
+          <span className="left-text-point background">Customer Service Background:</span><span className="right-text-point background-text">Will bring friendly and direct communication to the team.</span>
         <YoutubeEmbed embedId="8cWGCMXNhZw" />
         <div className="photo-left-caption"><h3><span className="right-s9">Current Goal:</span><br></br><span>Frontend React Position</span><br></br><span className="right-lowres right-s9">Languages:<span><br></br>
           <span className="img-right-s9">
