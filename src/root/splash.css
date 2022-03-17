@@ -251,7 +251,9 @@ div.portfolio-box-header {
   .video-responsive {
     right: 0;
   }
-
+  span.about, span.left-text-point, span.right-text-point {
+    display: none;
+  }
   div.three-columns div {
     height: 300px;
     border-radius: 5px;
@@ -273,9 +275,8 @@ div.portfolio-box-header {
     top: 110%;
   }
   div.photo-left-caption {
-    position: absolute;
-    left: 30%;
     column-count: 2;
+    column-gap: 150px;
   }
   span.right-lowres {
     position: absolute;
