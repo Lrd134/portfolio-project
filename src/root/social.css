@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 2560px) {
+@media only screen and (min-width:1950px) and (max-width: 2560px) {
   div.Basic {
     position: relative;
     text-align: unset;
@@ -48,7 +48,7 @@
   
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width:1200px) and (max-width: 1280px) {
   div.Basic {
     position: relative;
     text-align: unset;
@@ -65,7 +65,7 @@
   div.Exchange {
     position: absolute;
     top: 59%;
-    left: 590px;
+    left: 52%;
   }
   div.LinkedIn {
     position: relative;
@@ -91,7 +91,7 @@
   
   div.GitHub {
     position: absolute;
-    left: 597px;
+    left: 53%;
     top: 54px;
   }
 }

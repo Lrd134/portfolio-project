@@ -292,18 +292,6 @@ div.portfolio-box-header {
     position: absolute;
     top: 110%;
   }
-  div.GitHub {
-    position: absolute;
-    left: 53%;
-  }
-  div.GitHub > a {
-    position: relative;
-    left: 0px;
-  }
-  div.Exchange {
-    position: absolute;
-    left: 52%;
-  }
   span.right-s9 + br + span {
     position: absolute;
     width: 175px;
