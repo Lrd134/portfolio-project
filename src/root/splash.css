@@ -301,6 +301,32 @@ div.portfolio-box-header {
   div.etc-box{
     display: none;
   }
+  span.right-lowres {
+    position: absolute;
+    top: 125%;
+    left: 15%;
+  }
+  span.img-right-s9 {
+    position: relative;
+    left: 182%;
+  }
+  span.about {
+    position: absolute;
+    width: 450px;
+    top: 100%;
+  }
+  span.left-text-point {
+    
+    position: absolute;
+    width: 450px;
+    top: 110%;
+  }
+  span.right-text-point {
+    
+    position: absolute;
+    width: 450px;
+    top: 100%;
+  }
   div.navbar {
     display: none;
   }
