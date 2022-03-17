@@ -53,22 +53,6 @@ div.three-columns {
   column-gap: 120px;
 }
 
-
-h3 span  {
-  position: relative;
-  left: 37%;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation:  typing 4s steps(55, end);
-  animation-delay: 2s;
-
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
 div.three-columns div.social-media-box {
   background-color: rgba(105, 147, 184, 0.98);
 }
@@ -267,20 +251,33 @@ div.portfolio-box-header {
   }
   .photo-left-caption {
     position: absolute;
-    top: 73%;
-    right: 29%;
+    top: 75%;
+    right: 58%;
   }
   div.three-columns {
     position: absolute;
     top: 110%;
   }
-  div.photo-left-caption {
-    column-count: 2;
-    column-gap: 150px;
-  }
-  span.right-lowres {
+  span.right-s9 + br + span {
     position: absolute;
-    left: 83%;
+    width: 175px;
+    top: 50px;
+    left: 100%;
+  }
+  br + span.right-lowres {
+    position: absolute;
+    top: 15px;
+    left: 375%;
+  }
+  span.img-right-s9 span.img-right-720 {
+    position: absolute;
+    top: 10px;
+    left: 125%;
+  }
+  span.right-lowres.right-s9 > span{
+    position: absolute;
+    top: 0px;
+    left: 110%;
   }
 
 }
