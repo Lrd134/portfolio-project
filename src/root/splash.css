@@ -313,19 +313,42 @@ div.portfolio-box-header {
   span.about {
     position: absolute;
     width: 450px;
+    left: 27%;
+    top: 90%;
+  }
+  span.education {
+    position: absolute;
     top: 100%;
   }
   span.left-text-point {
-    
     position: absolute;
     width: 450px;
+    left: 0%;
+  }
+  span.background {
+    position: absolute;
+    top: 106%;
+  }
+  span.background-text {
+    position: absolute;
     top: 110%;
   }
-  span.right-text-point {
-    
+  span.goals {
     position: absolute;
+    top: 94%;
+  }
+  span.goals-text {
+    position: absolute;
+    top: 96%;
+  }
+  span.education-text {
+    position: absolute;
+    top: 104%;
+  }
+  span.right-text-point {
+    position: absolute;
+    left: 50%;
     width: 450px;
-    top: 100%;
   }
   div.navbar {
     display: none;
