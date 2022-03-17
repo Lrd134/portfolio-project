@@ -184,7 +184,7 @@ div.portfolio-box-header {
 
   div.three-columns {
     position: relative;
-    top: 450px;
+    top: 475px;
     color: #f0f4f8;
     column-count: 3;
     column-gap: 120px;
@@ -246,7 +246,7 @@ div.portfolio-box-header {
     right: 15%;
   }
 }
-@media only screen and (min-width:1279px) and (max-width: 1281px) {
+@media only screen and (min-width:1200px) and (max-width: 1300px) { /* 720p */
 
   .video-responsive {
     right: 0;
@@ -283,7 +283,7 @@ div.portfolio-box-header {
   }
 
 }
-@media only screen and (min-width: 1023px) and (max-width: 1024px) {
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
 
 }
 @media only screen and (min-width: 767px) and (max-width: 769px) { /* iPad mini */
