@@ -170,7 +170,29 @@ div.portfolio-box-header {
     top: 13%;
     right: 15%;
   }
-  
+
+  h3 > span.right-s9 {
+    position: absolute;
+    top: 0;
+    width: 120px;
+  }
+
+  br + span.right-lowres {
+    position: absolute;
+    top: 120px;
+    left: 45%;
+  }
+  span.img-right-720 {
+    position: absolute;
+    top: 10%;
+    left: 120%;
+  }
+  span.right-lowres.right-s9 > span{
+    position: absolute;
+    top: 20px;
+    left: 140%;
+  }
+
   div.three-columns div {
     height: 430px;
     border-radius: 5px;
@@ -193,7 +215,7 @@ div.portfolio-box-header {
   }
   div.photo-left-caption {
     position: absolute;
-    top: 75%;
+    top: 70%;
     z-index: 1;
     right: 23%;
   }
@@ -231,6 +253,7 @@ div.portfolio-box-header {
   }
 
 }
+
 @media only screen and (min-width: 1590px) and (max-width: 1620px) {
   .video-responsive {
     position: absolute;
@@ -240,6 +263,7 @@ div.portfolio-box-header {
     right: 15%;
   }
 }
+
 @media only screen and (min-width:1200px) and (max-width: 1300px) { /* 720p */
 
   .video-responsive {
@@ -291,9 +315,11 @@ div.portfolio-box-header {
   }
 
 }
+
 @media only screen and (min-width: 1000px) and (max-width: 1199px) {
 
 }
+
 @media only screen and (min-width: 767px) and (max-width: 769px) { /* iPad mini */
   div.video-responsive {
     top: 122%;
