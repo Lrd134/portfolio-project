@@ -46,7 +46,7 @@ function Splash() {
 
         <div className="three-columns">
           <div className="social-media-box">
-            <div className="social-media-header">Social Media</div><br></br>
+            <div className="social-media header">Social Media</div><br></br>
             <div className="socials">
               <Social url="https://www.linkedin.com/in/chesbro-jr/" social="LinkedIn" altTxt="Lawrence Chesbro Jr's LinkedIn" icon={linkedInIco} />
               <Social url="https://blog.gamingdecoded.org/" social="Blog" altTxt="Lawrence Chesbro Jr's Blog" icon={blogIco}/>
@@ -54,7 +54,7 @@ function Splash() {
               <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" altTxt="Lawrence Chesbro Jr' YouTube Channel" icon={youTubeIco} />
             </div>
           </div>
-          <div className="portfolio-box"><div className="portfolio-box-header">Portfolio</div><br></br>
+          <div className="portfolio-box"><div className="portfolio-box header">Portfolio</div><br></br>
             <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" altTxt="Play a Basic Game Here" icon={docIco} />
             <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" altTxt="Explore the Forums Here" icon={docIco} />
             <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Exchange" altTxt="Watch a Demo Here" icon={docIco} />
