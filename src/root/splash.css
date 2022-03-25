@@ -452,3 +452,34 @@ div.portfolio-box-header {
     right: 175px;
   }
 }
+
+@media only screen and (min-width: 10px) and (max-width: 600px) { /* Mobile Phones*/
+  div.video-responsive {
+    display: none;
+  }
+  #ps {
+    display: none;
+  }
+  div.three-columns {
+    display: none;
+  }
+  div.photo-left-caption {
+    text-align: center;
+    margin-bottom: 10px;;
+  }
+  span.right-lowres span a img {
+    margin-top: 20px;
+  }
+  div > h1 {
+    display: none;
+  }
+  div.navbar {
+    display: none;
+  }
+  span.about, span.right-text-point, span.left-text-point {
+    display: none;
+  }
+  img.photo-left {
+    display: none;
+  }
+}
