@@ -6,7 +6,6 @@ function Layout(props) {
   if (props.type === "main") {
     return (
       <div>
-        <NavBar />
         <Outlet />
       </div>
     )
