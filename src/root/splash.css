@@ -1,5 +1,25 @@
-div.hidden {
-  width: 346px;
-  height: 346px;
-  background-color: black;
+@media only screen and (min-width: 1200px) {
+  div.hidden {
+    width: 346px;
+    height: 346px;
+    background-color: black;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+  }
+  div.hidden.text {
+    padding-top: 17%;
+  }
+  div.socials {
+    float: left;
+  }
+  div.portfolio-box {
+    float: right;
+  }
+  div.video-responsive {
+    display: flex;
+    justify-content: center;
+  }
 }

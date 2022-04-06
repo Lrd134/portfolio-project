@@ -16,8 +16,12 @@ import YoutubeEmbed from './YoutubeEmbed';
 import './splash.css';
 function Splash() {
   const [socialClicked, setSocialClicked] = useState(false)
+  const [portfolioClicked, setPortfolioClicked] = useState(false)
   const changeSocialClicked = event => {
     setSocialClicked(!socialClicked);
+  }
+  const changePortfolioClicked = event => {
+    setPortfolioClicked(!portfolioClicked);
   }
   return (
     <div>
@@ -31,15 +35,17 @@ function Splash() {
               <Social url="https://blog.gamingdecoded.org/" social="Blog" altTxt="Lawrence Chesbro Jr's Blog" icon={blogIco}/><br></br>
               <Social url="https://twitter.com/GamingDecoded" social="Twitter" altTxt="@GamingDecoded on Twitter" icon={twitterIco}/>
               <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" altTxt="Lawrence Chesbro Jr' YouTube Channel" icon={youTubeIco} />
-            </div> : <div className="hidden" onClick={changeSocialClicked}></div>
+            </div> : <div className="hidden socials" onClick={changeSocialClicked}><div className="hidden text">Social Media</div></div>
           }
           </div>
-          <div className="portfolio-box">
+          {portfolioClicked ?
+          <div className="portfolio-box" onClick={changePortfolioClicked}>
             <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" altTxt="Play a Basic Game Here" icon={docIco} />
             <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" altTxt="Explore the Forums Here" icon={docIco} /><br></br>
             <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Exchange" altTxt="Watch a Demo Here" icon={docIco} />
             <Social url="https://github.com/Lrd134" social="GitHub" altText="Lawrence Chesbro Jr's GitHub" icon={gitHubIco} />
-          </div>
+          </div> : <div className="hidden portfolio-box" onClick={changePortfolioClicked}></div>
+          }
         </div>
         <div>
         </div>
