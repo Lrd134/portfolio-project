@@ -49,19 +49,18 @@ function Splash() {
         </div>
         <div>
         </div>
+        
+
         <YoutubeEmbed embedId="8cWGCMXNhZw" />
-        <div className=""><h3><span className="">Current Goal:</span><br></br><span>Frontend React Position</span><br></br><span className="">Languages:<span><br></br>
-          <span className="">
+        <img className="portrait" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img>
+        <span className="goal">Current Goal:<br></br><span>Frontend React Position</span></span>
+        <h1 className="languages">Languages</h1>
+        <span className="languages">
           <a rel="noreferrer" href="https://ruby-doc.org/" alt="Ruby Documentation" target="_blank"><img height="60px" width="60px" src={rubyIco} alt="Ruby Programming Language"/></a>
           <a rel="noreferrer" href="https://guides.rubyonrails.org/" alt="Rails Documentation" target="_blank"><img height="60px" width="60px" src={railsIco} alt="Ruby on Rails Framework"/></a>
-          <span className="">
-          <a style={{
-            marginLeft: "7px",
-            textDecoration: "none"
-          }} rel="noreferrer" href="https://git-scm.com/doc" alt="Git Documentation" target="_blank"><img height="60px" width="60px" src={gitIco} alt="Git CLI"/> </a>
+          <a rel="noreferrer" href="https://git-scm.com/doc" alt="Git Documentation" target="_blank"><img height="60px" width="60px" src={gitIco} alt="Git CLI"/> </a>
           <a rel="noreferrer" href="https://reactjs.org/docs/getting-started.html" alt="React Documentation" target="_blank"><img height="60px" width="60px" src={reactIco} alt="React Framework"/></a><br></br>
-          <a rel="noreferrer" href="https://developer.mozilla.org/" alt="MDN Web Documentation" target="_blank"><img height="90px" width="180px" src={webDevIcos} alt="HTML5, CSS, and JavaScript ES6"/></a> </span></span></span></span></h3></div>
-        <img className="photo-left" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img>
+          <a className="mdn" rel="noreferrer" href="https://developer.mozilla.org/" alt="MDN Web Documentation" target="_blank"><img height="90px" width="180px" src={webDevIcos} alt="HTML5, CSS, and JavaScript ES6"/></a> </span>
 
         <div className="footer">
         <span className="about"><strong>About Me</strong><br></br></span>

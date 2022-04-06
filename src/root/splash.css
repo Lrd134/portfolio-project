@@ -2,12 +2,11 @@
   div.hidden {
     width: 346px;
     height: 346px;
-    background-color: black;
-    color: white;
     font-size: 72px;
     text-align: center;
     overflow: hidden;
     margin: auto;
+    cursor: help;
   }
   div.hidden.text {
     padding-top: 17%;
@@ -21,5 +20,20 @@
   div.video-responsive {
     display: flex;
     justify-content: center;
+  }
+  span.goal {
+    float: right;
+    font-size: 32px;
+    margin-right: 20px;
+  }
+  .portrait {
+    float: left;
+  }
+  .languages {
+    display: flex;
+    justify-content: center;
+  }
+  span.languages > a {
+    margin: auto 5px;
   }
 }
