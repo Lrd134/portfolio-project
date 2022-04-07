@@ -24,13 +24,16 @@
   }
   div.social-media-box, div.portfolio-box {
     border-bottom: green 2px dashed;
+    
   }
   div.social-media-box {
     border-right: green 2px dashed;
+    border-bottom-right-radius: 10px;
     float: left;
   }
   div.portfolio-box {
     
+    border-bottom-left-radius: 10px;
     border-left: green 2px dashed;
     float: right;
   }
