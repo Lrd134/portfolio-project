@@ -9,6 +9,7 @@
 @media only screen and (min-width: 1931px) and (max-width: 3000px) {
   div.socials, div.portfolio {
     width: 14vw;
+    margin: 2rem;
   }
 
 }
@@ -21,15 +22,16 @@
     overflow: hidden;
     cursor: help;
   }
-  
-  div.hidden.text {
-    padding-top: 7%;
+  div.social-media-box, div.portfolio-box {
+    border-bottom: green 2px dashed;
   }
-
   div.social-media-box {
+    border-right: green 2px dashed;
     float: left;
   }
   div.portfolio-box {
+    
+    border-left: green 2px dashed;
     float: right;
   }
 
