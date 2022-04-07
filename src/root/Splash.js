@@ -52,7 +52,7 @@ function Splash() {
         
 
         <YoutubeEmbed embedId="8cWGCMXNhZw" />
-        <img className="portrait" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img>
+        {/* <img className="portrait" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img> */}
         <span className="goal">Current Goal:<br></br><span>Frontend React Position</span></span>
         <h1 className="languages">Languages</h1>
         <span className="languages">
