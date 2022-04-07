@@ -38,14 +38,17 @@ function Splash() {
             </div> : <div className="hidden socials" onClick={changeSocialClicked}><div className="hidden text">Social Media »</div></div>
           }
           </div>
-          {portfolioClicked ?
+          
           <div className="portfolio-box" onClick={changePortfolioClicked}>
+          {portfolioClicked ?
+            <div className="portfolio">
             <Social url="https://lrd134.github.io/basic-game/" social="Basic Game" altTxt="Play a Basic Game Here" icon={docIco} />
             <Social url="https://gdc-forums.herokuapp.com/" social="Mock Forums" altTxt="Explore the Forums Here" icon={docIco} /><br></br>
             <Social url="https://youtu.be/8cWGCMXNhZw" social="Mock Exchange" altTxt="Watch a Demo Here" icon={docIco} />
             <Social url="https://github.com/Lrd134" social="GitHub" altText="Lawrence Chesbro Jr's GitHub" icon={gitHubIco} />
-          </div> : <div className="hidden portfolio-box" onClick={changePortfolioClicked}></div>
+            </div> : <div className="hidden portfolio" onClick={changePortfolioClicked}><div className="hidden text">My Projects »</div></div>
           }
+          </div>
         </div>
         <div>
         </div>
@@ -53,7 +56,7 @@ function Splash() {
 
         <YoutubeEmbed embedId="8cWGCMXNhZw" />
         {/* <img className="portrait" src={selfPortrait} alt="Lawrence Chesbro, Jr. looking off in the distance towards Java Lake."></img> */}
-        <span className="goal">Current Goal:<br></br><span>Frontend React Position</span></span>
+        <h1 className="goal">Current Goal</h1><span className="goal">Frontend React Position</span>
         <h1 className="languages">Languages</h1>
         <span className="languages">
           <a rel="noreferrer" href="https://ruby-doc.org/" alt="Ruby Documentation" target="_blank"><img height="60px" width="60px" src={rubyIco} alt="Ruby Programming Language"/></a>
