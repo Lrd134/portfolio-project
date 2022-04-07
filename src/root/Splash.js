@@ -35,7 +35,7 @@ function Splash() {
               <Social url="https://blog.gamingdecoded.org/" social="Blog" altTxt="Lawrence Chesbro Jr's Blog" icon={blogIco}/><br></br>
               <Social url="https://twitter.com/GamingDecoded" social="Twitter" altTxt="@GamingDecoded on Twitter" icon={twitterIco}/>
               <Social url="https://www.youtube.com/channel/UCNqDMQ-o3_iGszqxdDq_ldA" social="YouTube" altTxt="Lawrence Chesbro Jr' YouTube Channel" icon={youTubeIco} />
-            </div> : <div className="hidden socials" onClick={changeSocialClicked}><div className="hidden text">Social Media</div></div>
+            </div> : <div className="hidden socials" onClick={changeSocialClicked}><div className="hidden text">Social Media »</div></div>
           }
           </div>
           {portfolioClicked ?

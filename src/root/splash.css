@@ -36,4 +36,10 @@
   span.languages > a {
     margin: auto 5px;
   }
+  div.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+  }
 }
