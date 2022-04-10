@@ -71,6 +71,7 @@ function Splash() {
           <span className="">Jan. 2022 Flatiron School</span>
           <span className="">Looking For and Accepting:</span>
           <span className="">Group Project Collaborations<br></br>
+        <a href="mailto:lches3200@gmail.com?subject=Just%20Wanted%20to%20Connect%20About" rel="noreferrer" target="_blank">Email Me</a>
           Entry-Level Frontend Job Offers<br></br>
           </span>
           <span className="">Customer Service Background:</span><span className="">Will bring friendly and direct communication to the team.</span>
