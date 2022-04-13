@@ -85,3 +85,24 @@
     width: 26vw;
   }
 }
+@media only screen and (min-width: 500px) and (max-width: 1199px) {
+  div.portfolio-box {
+    float: right;
+    
+  }
+  div.social-media-box {
+    float: left;
+    
+  }
+  div.social-media-box, div.portfolio-box {
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  div.hidden {
+    margin-top: 8.3vh;
+    font-size: x-large;
+    margin-bottom: 3%;
+  }
+}
