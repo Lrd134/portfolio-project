@@ -86,6 +86,12 @@
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 1199px) {
+  iframe {
+    width: 100vw;
+  }
+  svg.email {
+    width: 64px;
+  }
   div.portfolio-box {
     float: right;
     

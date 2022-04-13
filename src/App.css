@@ -10,8 +10,15 @@
 }
 
 
-@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
   body {
     height: 130vh;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1199px) {
+  body {
+    text-align: center;
+    height: 120vh;
   }
 }
