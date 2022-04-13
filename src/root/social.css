@@ -4,7 +4,7 @@
   }
   /* Need to fix video and this on 720p, then move to mobile. */
 }
-@media only screen and (min-width: 500px) and (max-width: 1199px) {
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
   div.social {
     margin-top: 3%;
     margin-bottom: auto;

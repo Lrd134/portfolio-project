@@ -16,9 +16,9 @@
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 1199px) {
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
   body {
     text-align: center;
-    height: 120vh;
+    height: 113vh;
   }
 }
