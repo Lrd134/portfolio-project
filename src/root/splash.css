@@ -63,9 +63,22 @@
     margin: auto;
     text-align: center;
   }
+  span.about {
+    font-size: large;
+  }
+  div.education, div.search, div.email, div.bg {
+    vertical-align: top;
+    width: 20vw;
+    display:inline-block;
+    margin:0 auto;
+  }
+  svg.email {
+    width: 64px;
+    
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-  div.footer{ 
+  div.footer { 
     bottom: -30%;
   }
   div.socials, div.portfolio {

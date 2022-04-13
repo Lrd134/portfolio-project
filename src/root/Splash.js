@@ -63,18 +63,34 @@ function Splash() {
           <a rel="noreferrer" href="https://guides.rubyonrails.org/" alt="Rails Documentation" target="_blank"><img height="60px" width="60px" src={railsIco} alt="Ruby on Rails Framework"/></a>
           <a rel="noreferrer" href="https://git-scm.com/doc" alt="Git Documentation" target="_blank"><img height="60px" width="60px" src={gitIco} alt="Git CLI"/> </a>
           <a rel="noreferrer" href="https://reactjs.org/docs/getting-started.html" alt="React Documentation" target="_blank"><img height="60px" width="60px" src={reactIco} alt="React Framework"/></a><br></br>
-          <a className="mdn" rel="noreferrer" href="https://developer.mozilla.org/" alt="MDN Web Documentation" target="_blank"><img height="90px" width="180px" src={webDevIcos} alt="HTML5, CSS, and JavaScript ES6"/></a> </span>
-
+          <a className="mdn" rel="noreferrer" href="https://developer.mozilla.org/" alt="MDN Web Documentation" target="_blank"><img height="90px" width="180px" src={webDevIcos} alt="HTML5, CSS, and JavaScript ES6"/></a>
+        </span>
+        
         <div className="footer">
-        <span className="about"><strong>About Me</strong><br></br></span>
-          <span className=""> Lawrence Chesbro Jr's Education:</span>
+
+        <span className="about"><strong>About Lawrence</strong><br></br></span>
+        <div className="education">
+          <span className=""> Lawrence Chesbro Jr's Education:</span><br></br>
           <span className="">Jan. 2022 Flatiron School</span>
-          <span className="">Looking For and Accepting:</span>
-          <span className="">Group Project Collaborations<br></br>
-        <a href="mailto:lches3200@gmail.com?subject=Just%20Wanted%20to%20Connect%20About" rel="noreferrer" target="_blank">Email Me</a>
-          Entry-Level Frontend Job Offers<br></br>
-          </span>
-          <span className="">Customer Service Background:</span><span className="">Will bring friendly and direct communication to the team.</span>
+        </div>
+        <div className="search">
+          <span className="">Looking For and Accepting:</span><br></br>
+          <span className="">Group Project Collaborations</span><br></br>
+        <span>Entry-Level Frontend Job Offers</span><br></br>
+        </div>
+        <div className="bg">
+          <span className="">Customer Service Background:</span><br></br><span className="">Will bring friendly and direct communication to the team.</span>
+        </div>
+        <div className="email">
+          Email <br></br>
+          <a href="mailto:lches3200@gmail.com?subject=Just%20Wanted%20to%20Connect%20About..." rel="noreferrer" target="_blank">lches3200@gmail.com</a> <br></br>
+          <a href="mailto:lches3200@gmail.com?subject=Just%20Wanted%20to%20Connect%20About..." rel="noreferrer" target="_blank">
+            <svg className="email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="#2f6fff" d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/>
+              </svg>
+          </a>
+        </div>
+
           {/* Put information here, this will have something like about me, our mission, what I want to achieve, etc */}
         </div>
       </div>
