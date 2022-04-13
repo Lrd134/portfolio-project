@@ -58,8 +58,17 @@
   }
   div.footer {
     position: absolute;
-    bottom: -10%;
     width: 100%;
+    bottom: -10%;
     margin: auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  div.footer{ 
+    bottom: -30%;
+  }
+  div.socials, div.portfolio {
+    width: 26vw;
   }
 }
