@@ -131,7 +131,6 @@ div.education, div.search, div.email, div.bg {
   }
   div.social-media-box, div.portfolio-box {
     width: 100%;
-    text-align: center;
     border-bottom: dashed 2px purple;
   }
   div.video-responsive {
