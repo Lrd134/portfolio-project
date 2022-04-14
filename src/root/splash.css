@@ -136,4 +136,9 @@ div.education, div.search, div.email, div.bg {
   div.video-responsive {
     display: none;
   }
+  div.footer {
+    position: absolute;
+    bottom: -80%;
+  }
+  
 }
