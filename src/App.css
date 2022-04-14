@@ -22,3 +22,9 @@
     height: 113vh;
   }
 }
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  body {
+    text-align: center;
+  }
+}
