@@ -1,4 +1,18 @@
-
+a {
+  color: white;
+}
+a:visited {
+  color: rgb(189, 189, 189);
+}
+a:link {
+  color: white;
+}
+a:link:active {
+  color: violet;
+}
+a:visited:active {
+  color: purple;
+}
 div.education, div.search, div.email, div.bg {
   vertical-align: top;
   width: 23vw;
@@ -138,7 +152,17 @@ div.education, div.search, div.email, div.bg {
   }
   div.footer {
     position: absolute;
-    bottom: -80%;
+    bottom: -90%;
   }
-  
+  span.about {
+    font-size: x-large;
+  }
+  div.education, div.search, div.bg, div.email {
+    width: 100%;
+    margin-top: 10px;
+    font-size:large;
+  }
+  svg.email {
+    width: 64px;
+  }
 }

@@ -17,11 +17,19 @@ div.social {
   text-align: center;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 599px) {
+@media only screen and (min-width: 300px) and (max-width: 599px) {
   div.social {
     font-size: large;
     margin-top: 0;
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+  div.social {
+    margin-left: 15px;
+    margin-right: 15px;
+    
   }
 }
