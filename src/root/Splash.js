@@ -9,7 +9,6 @@ import railsIco from '../media/icons/rails-icon.png';
 import reactIco from '../media/icons/react-icon.png';
 import webDevIcos from '../media/icons/webdev-icons.png';
 import gitIco from '../media/icons/git-icon.png';
-import selfPortrait from '../me_temp.jpg';
 import React, { useState } from 'react';
 import Social from './Social';
 import YoutubeEmbed from './YoutubeEmbed';
