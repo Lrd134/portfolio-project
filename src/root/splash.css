@@ -118,3 +118,20 @@ div.education, div.search, div.email, div.bg {
     width: 100%;
   }
 }
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  div.social-media-box, div.portfolio-box {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: xx-large;
+    border-bottom: dashed 2px purple;
+  }
+  iframe {
+    width: 100%;
+  }
+  div.video-responsive {
+    margin-top: 1px;
+  }
+}
