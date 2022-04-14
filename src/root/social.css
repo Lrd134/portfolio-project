@@ -16,3 +16,12 @@ div.social {
   display: inline-block;
   text-align: center;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  div.social {
+    font-size: large;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
