@@ -32,9 +32,18 @@ div.education, div.search, div.email, div.bg {
     width: 14vw;
     margin: 2rem;
   }
+  
 
 }
+@media only screen and (min-width: 1200px) and (max-width: 1999px) {
+  div.hidden {
+    height: 30vh;
+  }
+  div.social-media-box, div.portfolio-box {
+    width: 19vw;
+  }
 
+ }
 @media only screen and (min-width: 1200px) {
 
   div.hidden {
@@ -42,12 +51,10 @@ div.education, div.search, div.email, div.bg {
     text-align: center;
     overflow: hidden;
     cursor: help;
-    height: 30vh;
   }
   div.social-media-box, div.portfolio-box {
     border-bottom: purple 2px dashed;
     box-shadow: 1px 3px 5px purple;
-    width: 19vw;
   }
   div.social-media-box {
     border-right: purple 2px dashed;
