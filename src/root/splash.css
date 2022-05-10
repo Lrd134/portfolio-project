@@ -37,7 +37,7 @@ div.education, div.search, div.email, div.bg {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1999px) {
   div.hidden {
-    height: 30vh;
+    height: 23vh;
   }
   div.social-media-box, div.portfolio-box {
     width: 19vw;
