@@ -22,7 +22,7 @@ div.education, div.search, div.email, div.bg {
 @media only screen and (min-width: 1900px) and (max-width: 1930px) {
 
   div.socials, div.portfolio {
-    width: 19vw;
+    width: fit-content;
   }
 
 }
@@ -42,11 +42,12 @@ div.education, div.search, div.email, div.bg {
     text-align: center;
     overflow: hidden;
     cursor: help;
+    height: 30vh;
   }
   div.social-media-box, div.portfolio-box {
     border-bottom: purple 2px dashed;
     box-shadow: 1px 3px 5px purple;
-    
+    width: 19vw;
   }
   div.social-media-box {
     border-right: purple 2px dashed;
@@ -63,6 +64,7 @@ div.education, div.search, div.email, div.bg {
   div.video-responsive {
     display: flex;
     justify-content: center;
+    margin: 0;
   }
 
   span.goal {

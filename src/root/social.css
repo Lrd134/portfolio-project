@@ -1,6 +1,6 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1999px) {
   div.social {
-    margin-left: 12%;
+    margin-left: 11%;
   }
   /* Need to fix video and this on 720p, then move to mobile. */
 }
