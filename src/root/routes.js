@@ -2,7 +2,7 @@ import { Route } from "react-router-dom";
 import Layout from "./Layout.js";
 import Splash from './Splash.js'
 import ForumContainer from "../forums/ForumContainer.js";
-import ForumLayout from "../forums/ForumLayout.js";
+// import ForumLayout from "../forums/ForumLayout.js";
 const myRoutes = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const myRoutes = () => {
       />
       
     </Route>
-    <Route path="/forums" element={<ForumLayout />} >
+    <Route path="/forums" >
       <Route exact path="/forums" element={<ForumContainer />} />
       <Route path="*" element={<div>
         <h1>Unknown forum resource.</h1>

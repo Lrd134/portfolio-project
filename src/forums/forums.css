@@ -1,5 +1,10 @@
-body {
-  background-image: #495246;
+div.forums {
+  height: 150vh;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 99vw;
+  background-color: #495246;
 }
 .cat-group-box {
   display: block;

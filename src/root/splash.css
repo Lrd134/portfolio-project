@@ -19,6 +19,7 @@ div.education, div.search, div.email, div.bg {
   display:inline-block;
   margin:0 auto;
 }
+
 @media only screen and (min-width: 1900px) and (max-width: 1930px) {
 
   div.socials, div.portfolio {

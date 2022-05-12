@@ -24,7 +24,11 @@ function Splash() {
     setPortfolioClicked(!portfolioClicked);
   }
   return (
-    <div>
+    <div style={{
+      "background-image": "linear-gradient(180deg,  rgb(47, 162, 150), blue, rgb(2, 2, 98))",
+      color: "white",
+      height: "140vh"
+  }}>
       <div className="splash">
         <div className="three-columns">
           
