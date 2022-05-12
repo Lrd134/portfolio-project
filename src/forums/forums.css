@@ -1,0 +1,13 @@
+body {
+  background-image: #495246;
+}
+.cat-group-box {
+  display: block;
+  width: 75vw;
+}
+
+.category-title {
+  display: block;
+  width: 60vw;
+}
+
