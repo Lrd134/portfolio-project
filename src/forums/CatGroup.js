@@ -6,6 +6,9 @@ function CatGroup({title}) {
       <span className={`cat-group-title ${title}`}>
         {title}
       </span>
+      <Category key="ot" title="Off Topic"/>
+      <Category key="intros" title="Introductions"/>
+      <Category key="fd" title="Friendly Discussions"/>
     </span>
   )
 }
