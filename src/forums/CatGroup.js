@@ -1,14 +1,11 @@
 import React from 'react';
-import Category from './Category';
-function CatGroup({title}) {
+function CatGroup(props) {
   return (
     <span className={`cat-group-box`}>
-      <span className={`cat-group-title ${title}`}>
-        {title}
+      <span className={`cat-group-title ${props.title}`}>
+        {props.title}
       </span>
-      <Category key="ot" title="Off Topic"/>
-      <Category key="intros" title="Introductions"/>
-      <Category key="fd" title="Friendly Discussions"/>
+      {props.children}
     </span>
   )
 }
