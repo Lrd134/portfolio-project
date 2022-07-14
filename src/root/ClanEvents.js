@@ -10,8 +10,8 @@ function RuneScapeClanEvents() {
       <h1> Thanks for joining DecodedScape! </h1>
 
       <h3>We have a great plugin called 
-        {" "}<a href="https://github.com/cmsu224/clan-events" target="blank">Clan Events</a> that helps you keep track of
-         track Skill of the Week and Boss of the Week </h3>
+        {" "}<a href="https://github.com/cmsu224/clan-events" target="blank">Clan Events</a> that helps you keep
+         track of Skill of the Week and Boss of the Week </h3>
       <div className="instructions">
         <div className="step">
           <h2>Step 1: Locate the Plugin Hub </h2>

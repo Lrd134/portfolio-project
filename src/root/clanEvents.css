@@ -1,13 +1,26 @@
-span#red-text {
-  color: red;
-}
-span#blue-text {
-  color: blue;
-}
-div.instructions {
-  column-count: 3;
-}
 body {
   text-align: center;
   background-color: blueviolet;
+}
+
+span#red-text {
+  color: red;
+}
+
+span#blue-text {
+  color: blue;
+}
+a {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  div.instructions {
+    column-count: 3;
+  }
+
 }
