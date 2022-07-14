@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import Layout from "./Layout.js";
 import Splash from './Splash.js'
 import ForumContainer from "../forums/ForumContainer.js";
+import RuneScapeClanEvents from '../root/ClanEvents.js'
 // import ForumLayout from "../forums/ForumLayout.js";
 const myRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const myRoutes = () => {
       />
       
     </Route>
+    <Route exact path="/osrs" element={<RuneScapeClanEvents />} />
     <Route path="/forums" >
       <Route exact path="/forums" element={<ForumContainer />} />
       <Route path="*" element={<div>
